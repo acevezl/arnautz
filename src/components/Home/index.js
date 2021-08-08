@@ -17,7 +17,7 @@ const Home = ( props ) => {
                 <span className='intro-title-top'>Hello, I'm</span>
                 <h1 className='intro-title'>Louis Arnaut</h1>
                 <h2 className='intro-subtitle'>A full-stack MERN developer</h2>
-                <button>View my code doodles</button>
+                <button className='btn btn-primary'>View my code doodles</button>
                 <div className='badges'>
                     <img src={require(`../../assets/images/mern.png`).default} alt="Mongo DB"/>
                     <img src={require(`../../assets/images/html-badges.png`).default} alt="HTML CSS JS"/>

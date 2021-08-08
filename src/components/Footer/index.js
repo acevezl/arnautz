@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = ( props ) => {
+const Footer = () => {
 
     return(
         <footer className='flex-row p-1 border-top'>

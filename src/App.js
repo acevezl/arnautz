@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -9,22 +9,7 @@ import ProjectList from './components/ProjectList';
 function App() {
 
   const [ categories ] = useState([
-    {
-      name: 'Home',
-      description: 'Welcome to my site'
-    },
-    {
-      name: 'About me',
-      description: 'Know more about me'
-    },
-    {
-      name: 'My code doodles',
-      description: 'Portfolio of full-stack projects'
-    },
-    {
-      name: 'My resumé',
-      description: 'Read more about my professional journey'
-    }
+    'Home','About me','My code doodles','Resumé','Contact'
   ])
 
   const [ projects ] = useState([
@@ -132,6 +117,20 @@ function App() {
 
   const [ currentCategory, setCurrentCategory ] = useState( categories[0] );
 
+  useEffect( () => {
+    document.title = 'Luis Arnaut | ' + currentCategory;
+  }, [currentCategory]);
+
+  const renderPage = () => {
+
+    switch(currentCategory) {
+      case 'About me': return(<About currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>);
+      case 'My code doodles': return(<ProjectList currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} projects={projects}/>);
+      default: return(<Home currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>);
+    }
+
+  }
+
   return (
     <main className='main' id='main-container'>
       <Nav 
@@ -140,16 +139,9 @@ function App() {
         currentCategory={currentCategory}
       />
       <section className='body-container'>
-        <Home currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>  
-        <About currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>
-        <ProjectList currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} projects={projects}/>
-
+        {renderPage()}
       </section>
-      <Footer 
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      />
+      <Footer/>
     </main>
   );
 }

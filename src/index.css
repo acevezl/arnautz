@@ -95,13 +95,14 @@ section {
   margin-right: 14px;
 }
 
-/* Aobut styles */
-.about {
+/* About styles */
+.about, .contact {
   background-color: var(--bs-light);
   justify-content: center;
 }
 
-.about h2, .projects h2 {
+/* All h2 headers */
+.about h2, .projects h2, .contact h2, .resume h2 {
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: center;
@@ -121,13 +122,14 @@ section {
   height: 500px;
 }
 
-.projects {
+/* Project List */
+.projects, .resume {
   background-image: url('../src/assets/images/web-background-1.png');
   background-position: top;
   justify-content: center;
 }
 
-.projects .project-list {
+.projects .project-list, .resume .resume-body {
   display: flex;
   flex-wrap: wrap;  
   justify-content: space-around;
@@ -141,6 +143,42 @@ section {
 
 .projects .project-list .card .project-description {
   font-size: small;
+}
+
+/* Contact form */
+.contact .contactForm {
+  flex: 0 80%;
+}
+
+.contact .contactForm textarea {
+  height: 120px;
+}
+
+/* Resume */
+.resume {
+  justify-content: center;
+}
+
+.resume .resume-body {
+  margin: 0 40px;
+}
+
+.resume .resume-body h3 {
+  width: 100%;
+}
+
+.resume .resume-body p, .resume .resume-body ul {
+  text-align: left;
+  width: 100%;
+}
+
+.resume .resume-body ul li {
+  font-size:small;
+  width: 100%;
+}
+
+.resume .resume-body .skills {
+  flex-direction: row;
 }
 
 /* Updates to bootsrap classes */
@@ -197,6 +235,10 @@ footer nav ul li a:hover i {
     background-position: center;
   }
 
+  .contact .contactForm {
+    flex: 0 60%;
+  }
+
 }
 
 /* Media query for Tablets and iPads (768px to 1024px) */
@@ -222,6 +264,10 @@ footer nav ul li a:hover i {
 
   .about .about-body {
     margin: 0 80px;
+  }
+
+  .contact .contactForm, .resume .resume-body {
+    flex: 0 50%;
   }
 
 }

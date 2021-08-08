@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import ProjectList from './components/ProjectList';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -126,6 +128,8 @@ function App() {
     switch(currentCategory) {
       case 'About me': return(<About currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>);
       case 'My code doodles': return(<ProjectList currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} projects={projects}/>);
+      case 'Contact': return(<Contact/>);
+      case 'Resumé': return(<Resume/>);
       default: return(<Home currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>);
     }
 

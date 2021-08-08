@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/arnautz/static/css/main.e2a19e9f.chunk.css",
+    "main.js": "/arnautz/static/js/main.2de4cee2.chunk.js",
+    "main.js.map": "/arnautz/static/js/main.2de4cee2.chunk.js.map",
+    "runtime-main.js": "/arnautz/static/js/runtime-main.fc59853a.js",
+    "runtime-main.js.map": "/arnautz/static/js/runtime-main.fc59853a.js.map",
+    "static/js/2.6aa735ae.chunk.js": "/arnautz/static/js/2.6aa735ae.chunk.js",
+    "static/js/2.6aa735ae.chunk.js.map": "/arnautz/static/js/2.6aa735ae.chunk.js.map",
+    "static/js/3.d91505b3.chunk.js": "/arnautz/static/js/3.d91505b3.chunk.js",
+    "static/js/3.d91505b3.chunk.js.map": "/arnautz/static/js/3.d91505b3.chunk.js.map",
+    "index.html": "/arnautz/index.html",
+    "static/css/main.e2a19e9f.chunk.css.map": "/arnautz/static/css/main.e2a19e9f.chunk.css.map",
+    "static/js/2.6aa735ae.chunk.js.LICENSE.txt": "/arnautz/static/js/2.6aa735ae.chunk.js.LICENSE.txt",
+    "static/media/apollo-graphql-json-api.png": "/arnautz/static/media/apollo-graphql-json-api.eaa500f1.png",
+    "static/media/bike-watch.png": "/arnautz/static/media/bike-watch.6eb3676c.png",
+    "static/media/github.svg": "/arnautz/static/media/github.95ad9234.svg",
+    "static/media/hauskeepr-dashboard.png": "/arnautz/static/media/hauskeepr-dashboard.44388061.png",
+    "static/media/horiseon.jpg": "/arnautz/static/media/horiseon.1f033661.jpg",
+    "static/media/js-quiz.png": "/arnautz/static/media/js-quiz.66fff149.png",
+    "static/media/luis-arnaut-2.jpeg": "/arnautz/static/media/luis-arnaut-2.f590c9e8.jpeg",
+    "static/media/luis-arnaut-california.jpeg": "/arnautz/static/media/luis-arnaut-california.d1575926.jpeg",
+    "static/media/luis-arnaut-headshot.jpg": "/arnautz/static/media/luis-arnaut-headshot.af060765.jpg",
+    "static/media/luis-arnaut.jpeg": "/arnautz/static/media/luis-arnaut.81153112.jpeg",
+    "static/media/luisarevalo.webp": "/arnautz/static/media/luisarevalo.8fdbe515.webp",
+    "static/media/mern.png": "/arnautz/static/media/mern.cafd93cd.png",
+    "static/media/password-generator.png": "/arnautz/static/media/password-generator.8b2c91c2.png",
+    "static/media/robo-hobo.jpeg": "/arnautz/static/media/robo-hobo.2097aa6d.jpeg",
+    "static/media/rock-paper-scissors.png": "/arnautz/static/media/rock-paper-scissors.0ae312bf.png",
+    "static/media/run-buddy.jpg": "/arnautz/static/media/run-buddy.000e1b5f.jpg",
+    "static/media/scheduler.gif": "/arnautz/static/media/scheduler.ae7f0982.gif",
+    "static/media/technews.png": "/arnautz/static/media/technews.847db9b7.png",
+    "static/media/weather-fetch.png": "/arnautz/static/media/weather-fetch.b20f46b5.png",
+    "static/media/whatsapp.svg": "/arnautz/static/media/whatsapp.8998b5ba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc59853a.js",
+    "static/js/2.6aa735ae.chunk.js",
+    "static/css/main.e2a19e9f.chunk.css",
+    "static/js/main.2de4cee2.chunk.js"
+  ]
+}

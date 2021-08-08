@@ -8,7 +8,7 @@ const Home = ( props ) => {
     } = props;
 
     useEffect( () => {
-        document.title = currentCategory.name;
+        document.title = 'Luis Arnaut | ' + currentCategory.name;
     }, [currentCategory]);
 
     return(

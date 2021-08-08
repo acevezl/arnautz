@@ -21,11 +21,9 @@ const Home = ( props ) => {
                 <div className='badges'>
                     <img src={require(`../../assets/images/mern.png`).default} alt="Mongo DB"/>
                     <img src={require(`../../assets/images/html-badges.png`).default} alt="HTML CSS JS"/>
-                </div>
-                <div className='badges'>
+                
                     <img src={require(`../../assets/images/apollo-graphql-json-api.png`).default} alt="Apollo GraphQL JSON REST:API"/>
-                </div>
-                <div className='badges'>
+                
                     <img src={require(`../../assets/images/logo-mysql.png`).default} alt="MySQL"/>
                 </div>
             </div>

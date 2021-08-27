@@ -16,6 +16,15 @@ function App() {
 
   const [ projects ] = useState([
     {
+      name: 'URU',
+      class: 'uru',
+      short_description: 'A full MERN application',
+      long_description: 'A full MERN application using GraphQL and Email JS. URU is a gig-economy app designed to connect kids with special needs with therapists. It stores data in MongoDB and uses GraphQL for data retrieval. Search is optimized for a Google-like experience.',
+      image: 'uru.png',
+      link: 'https://uru.herokuapp.com',
+      github: 'https://github.com/acevezl/uru'
+    },
+    {
       name: 'HausKeepr',
       class: 'hauskeepr',
       short_description: 'A full-stack MVC application',
